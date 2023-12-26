@@ -1,4 +1,4 @@
-// Minha solução:
+// Minha solução | nota: 8/10
 function calcFatorial(num) {
   let resultado = 1;
   switch(num){
@@ -15,8 +15,8 @@ function calcFatorial(num) {
   }
 }
 
-// Solução corrigida | nota: 8/10
-function calcFatorialGPT(num) {
+// Solução corrigida
+function calcFatorial2(num) {
   let resultado = 1;  
   switch(num){
     case 0:
@@ -35,7 +35,7 @@ function calcFatorialGPT(num) {
 }
 
 // Correção do chatGPT
-function fatorial(numero) {
+function calcFatorialGPT(numero) {
   if (numero === 0 || numero === 1) {
       return 1;
   } if (numero < 0) {

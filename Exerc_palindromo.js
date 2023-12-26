@@ -1,4 +1,4 @@
-// Minha solução:
+// Minha solução | nota: 8.5 
 function ePalindromo(palavra) {
   const palavraMinuscula = palavra.toLowerCase()
 
@@ -9,8 +9,8 @@ function ePalindromo(palavra) {
   return (palavraMinuscula === palavraReversa) ? true : false
 }
 
-// Solução corrigida | nota: 8.5 
-function ePalindromo(palavra) {
+// Solução corrigida
+function ePalindromo2(palavra) {
   // Converte para minúsculas
   const palavraMinuscula = palavra.toLowerCase();
 
@@ -24,7 +24,7 @@ function ePalindromo(palavra) {
 }
 
 // Correção do chatGPT
-function ehPalindromo(palavra) {
+function ePalindromoGPT(palavra) {
   // Remove espaços em branco e converte para minúsculas para tornar a verificação case-insensitive
   const palavraSemEspacos = palavra.toLowerCase().replace(/\s/g, '');
   

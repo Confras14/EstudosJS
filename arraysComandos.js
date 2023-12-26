@@ -26,3 +26,9 @@ console.log(nomes)
 
 nomes.reverse()
 console.log(nomes)
+
+let arrayNome = nomes[0].split('')
+console.log(arrayNome)
+
+let allNames = nomes.join(' ')
+console.log(allNames)

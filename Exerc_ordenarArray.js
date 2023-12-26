@@ -1,4 +1,4 @@
-// Minha solução
+// Minha solução | nota: 8.5/10
 function ordenarArray(array) {
   let arrayOrdenada = array
   let tamanhoArray = array.length
@@ -22,8 +22,8 @@ function ordenarArray(array) {
   return arrayOrdenada
 }
 
-// Solução corrigida | nota: 8.5/10
-function ordenarArray(array) {
+// Solução corrigida
+function ordenarArray2(array) {
   // Cria uma cópia do array usando slice
   const arrayOrdenada = array.slice();
 
@@ -50,7 +50,7 @@ console.log(arrayOriginal); // O array original não foi modificado
 console.log(arrayOrdenada); // O array ordenado
 
 // Correção do chatGPT
-function ordenarArray(array) {
+function ordenarArrayGPT(array) {
   // Utiliza o método sort para ordenar os números
   return array.sort(function(a, b) {
       return a - b;
