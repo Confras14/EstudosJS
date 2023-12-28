@@ -3,7 +3,6 @@ function ordenarArray(array) {
   let arrayOrdenada = array
   let tamanhoArray = array.length
   console.log(array)
-
   let x = 0
   let y = x + 1
   while(tamanhoArray > x) {
@@ -18,7 +17,6 @@ function ordenarArray(array) {
     x++
     y = x + 1
   }
-
   return arrayOrdenada
 }
 
@@ -26,9 +24,7 @@ function ordenarArray(array) {
 function ordenarArray2(array) {
   // Cria uma cópia do array usando slice
   const arrayOrdenada = array.slice();
-
   const tamanhoArray = arrayOrdenada.length;
-
   for (let i = 0; i < tamanhoArray - 1; i++) {
     for (let j = i + 1; j < tamanhoArray; j++) {
       if (arrayOrdenada[i] > arrayOrdenada[j]) {
@@ -39,15 +35,8 @@ function ordenarArray2(array) {
       }
     }
   }
-
   return arrayOrdenada;
 }
-
-const arrayOriginal = [3, 1, 4, 1, 5, 9, 2, 6, 5];
-const arrayOrdenada = ordenarArray(arrayOriginal);
-
-console.log(arrayOriginal); // O array original não foi modificado
-console.log(arrayOrdenada); // O array ordenado
 
 // Correção do chatGPT
 function ordenarArrayGPT(array) {

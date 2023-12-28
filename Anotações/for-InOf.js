@@ -10,13 +10,9 @@ for(let i = 0; i < produtos.length; i++) {
   console.log(produtos[i].nome, produtos[i].qt)
 }
 
-console.log('---------------')
-
 for(let n in produtos) {
   console.log(produtos[n].nome)
 }
-
-console.log('---------------')
 
 for(let produto of produtos) {
   console.log(produto.qt)
