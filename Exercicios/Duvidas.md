@@ -1,1 +1,0 @@
-**/Duvidas.md
