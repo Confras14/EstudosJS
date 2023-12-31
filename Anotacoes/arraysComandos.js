@@ -33,7 +33,7 @@ cores[cores.length - 1] = 'Branco'
 console.log(cores)
 
 // Para Selecionar os termos que estiverem entre o primeiro e ultimo valor passado
-console.log(cores.slice(1,3))
+console.log(cores.slice(1, 3))
 
 // Usado para a partir do termo escolhido (primeiro valor) imprir a quantidade escolhida de termos (segundo valor)
 console.log(cores.splice(1, 2))
@@ -43,3 +43,9 @@ console.log(cores.reverse())
 
 // Se para uma string char por char e a tranforma em um array
 console.log(cores[1].split(''))
+
+// Ordena os itens em ordem alfabética (caso fosse números, do menor pro maior)
+console.log(cores.sort())
+
+// Ordena em ordem alfabética e logo depois inverte, ficando do Z para o A
+console.log(cores.sort().reverse())
