@@ -51,6 +51,9 @@ console.log(cores[1].split(''))
 // Ordena os itens em ordem alfabética (caso fosse números, do menor pro maior)
 console.log(cores.sort())
 
+// Ordena os itens em ordem menor pro maior, alternando de acordo com o numero subritaido 
+console.log(cores.sort((a, b) => a - b))
+
 // Ordena em ordem alfabética e logo depois inverte, ficando do Z para o A
 console.log(cores.sort().reverse())
 
