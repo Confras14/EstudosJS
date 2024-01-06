@@ -77,7 +77,7 @@ body {
   border: none;
 }
 
-.dellQuest {
+.btDellQuest {
   width: 2rem;
   height: 2rem;
   display: flex;
@@ -92,6 +92,6 @@ body {
   border-radius: 5px;
 }
 
-.dellQuest:hover {
+.btDellQuest:hover {
   background-color: #ad3535;
 }
