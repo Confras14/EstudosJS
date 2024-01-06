@@ -1,12 +1,11 @@
 function handleCriarQuest() {
-  let quests = document.querySelectorAll('.quest')
-  let lastQuest = quests[quests.length - 1]
+  const quest = document.createElement('span')
+  quest.innerHTML = '<div class="quest"><input type="checkbox" class="checkQuest"><input type="text" class="titleQuest" placeholder="Nome da quest"><button class="dellQuest"><p>X</p></button></div>'
 
-  
+  todoList.appendChild(quest)
 }
 
-const newQuest = document.querySelector('newQuest')
+const todoList = document.querySelector('.todoList')
+const newQuest = document.querySelector('.newQuest')
 newQuest.addEventListener('click', handleCriarQuest)
 
-const quest = document.createElement
-quest.innerHTML = '<div class="quest"><input type="checkbox" class="checkQuest"><input type="text" class="titleQuest" placeholder="Nome da quest"></div>'
